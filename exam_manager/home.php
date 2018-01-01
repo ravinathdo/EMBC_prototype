@@ -20,17 +20,13 @@ and open the template in the editor.
         </style>
     </head>
     <body>
-
         <h2>Exam Manager</h2> 
         <hr>
         <div id="treeDiv">
             <?php include './_menu.php';?>
         </div>
         <div id="containerDiv">
-            this is container
+            
         </div>
-
-
-
     </body>
 </html>

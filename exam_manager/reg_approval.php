@@ -24,10 +24,12 @@ and open the template in the editor.
         <h2>Exam Manager</h2> 
         <hr>
         <div id="treeDiv">
-                        <?php include './_menu.php'; ?>
+            <?php include './_menu.php'; ?>
         </div>
         <div id="containerDiv">
-            this is container
+            <form action="reg_explorer.php">
+                Verification Code <input type="text" /> <input type="submit" value="Search" />
+            </form>
         </div>
 
 

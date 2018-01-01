@@ -27,32 +27,31 @@ and open the template in the editor.
             <?php include './_menu.php'; ?>
         </div>
         <div id="containerDiv">
+            <h2>Manage Subject</h2>
             <form name="form1" method="post" action="">
                 <table border="0" cellpadding="2">
                     <tbody>
                         <tr>
                             <td>Exam Name</td>
-                            <td>School
+                                    <td><select>
+                                            <option>--select exam--</option>
+                                            <option>School Cambridge O/L</option>
+                                            <option>IELTS</option>
+                                </select>
                             </td>
                         </tr>
                         <tr>
-                            <td>Branch</td>
-                            <td>Colombo
+                            <td>Subject Name</td>
+                            <td><input type="text" />
                             </td>
                         </tr>
+                       
                         <tr>
-                            <td>Exam Date</td>
-                            <td>11-03-2018</td>
-                        </tr>
-                        <tr>
-                            <td>Status</td>
-                            <td>RegOpen</td>
-                        </tr>
-                        <tr>
-                            <td>Exam Type</td>
-                            <td>Cambridge O/L
+                            <td>Fee</td>
+                            <td><input type="text" />
                             </td>
                         </tr>
+                       
                         <tr>
                             <td></td>
                             <td><input type="submit"/></td>
@@ -60,6 +59,25 @@ and open the template in the editor.
                     </tbody>
                 </table>
             </form>
+            <table border="0" width="100%">
+                <thead>
+                    <tr>
+                        <th align="center">Exam</th>
+                        <th align="center">Subject</th>
+                        <th align="center">Fee</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td align="center">School Cambridge O/L</td>
+                        <td align="center">English</td>
+                        <td align="center">2500</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+
         </div>
 
 

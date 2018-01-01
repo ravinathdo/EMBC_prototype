@@ -98,7 +98,7 @@ and open the template in the editor.
     <td>11-03-2018</td>
     <td><a href="exam_status.php">RegOpen</a></td>
     <td>Cambridge O/L</td>
-    <td><a href="#">manage subjects</a></td>
+    <td><a href="exam_subject.php">Manage Subjects</a></td>
   </tr>
   <tr>
     <td>&nbsp;</td>
